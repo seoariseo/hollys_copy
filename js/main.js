@@ -16,5 +16,9 @@ $(".move").slick({
     adaptiveHeight:true
 })
 
+$(".close").click(function(){
+    $(".popup").hide()
+})
+
 
 })//jquery

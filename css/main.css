@@ -316,3 +316,192 @@
 .cont03_list h3{
     margin-bottom: 10px;
 }
+
+.event_list{}
+
+.event_list li{
+    line-height: 1.8;
+    /* border: 1px solid red; */
+}
+
+.event_list li a{
+    width: 70%;
+    float: left;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.event_list li span{
+    float: right;
+    /* border: 1px solid red; */
+}
+
+.b2b{}
+.b2b p{
+    line-height: 1.7;
+    text-align: justify;
+    /* letter-spacing: 0.02em; */
+}
+.more{
+    margin-top: 5px;
+}
+
+.table{
+    width: 100%;
+    table-layout: fixed;
+}
+.table td{
+    padding: 5px 0; 
+}
+.col1{
+    width: 75%;
+    text-overflow: ellipsis;
+    /* text-wrap: nowrap; */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.col2{
+    width: 25%;
+    text-align: right;
+}
+
+
+
+/* .notice 영역 */
+
+.notice{}
+
+.notice_list{
+    text-align: right;
+}
+
+.notice_list li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.notice_list li a{
+    display: block;
+}
+
+.notice_list li:nth-child(1) a{
+    border-right: 1px dotted gray;
+    padding-right: 20px;
+}
+.notice_list li:nth-child(1) span{
+    padding-right: 20px;
+}
+.notice_list li span{
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* .cont4 영역 */
+
+
+.cont4{
+    margin-top: 100px;
+    border-top: 2px solid #da1425;
+    width: 100%;
+    padding: 50px 0;
+}
+.cont4 img{
+    vertical-align: text-bottom;
+    text-align: left;
+
+}
+.cont4 a{}
+.cont4 a img{}
+
+
+
+
+/* footer 영역 */
+
+#footer{
+    background-color:#da1425 ;
+    padding: 20px 0;
+}
+.f_inner{
+    width: 940px;
+    margin: 0 auto;
+}
+.f_menu{
+    color: white;
+}
+.f_menu li{
+    float: inline-start;
+}
+.f_menu li a{
+    display: block;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+.f_menu li a::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 6px;
+
+}
+.f_menu li:first-child a{
+    padding-left: 0 !important;
+}
+
+.f_menu li:last-child a::after
+{
+    display: none;
+}
+
+.address{
+    clear: both;
+    font-style: normal;
+    font-size: 11px;
+    padding: 15px 0;
+    text-align: justify;
+    color: white;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+
+.fix{
+    z-index: 49;
+    position: fixed;
+    right: 15%;
+    top: 3%;
+}
+
+.popup{
+    width: 500px;
+    height: 700px;
+    border: 10px solid #da1425;
+    box-sizing: unset;
+    z-index: 500;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+.popup a{}
+.popup a img{}
+.close{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.close:hover{
+    text-decoration: underline;
+}

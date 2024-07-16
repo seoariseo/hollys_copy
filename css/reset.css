@@ -4,7 +4,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 a{text-decoration: none; color: inherit;}
 ul,ol,li{list-style: none;}
-img{vertical-align: top;}
+img{vertical-align: text-top;}
 table{border-collapse: collapse;}
 .clear_fix::after, .clear_fix::before{
     content: "";
